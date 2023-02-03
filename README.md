@@ -13,10 +13,10 @@ Checking for missing values: overlapping missing data, we can therefore separate
 
 ![Image of aciduino on protoboard](https://github.com/dinaOuahbi/Exome-paad/blob/main/results/exome_missing_data.PNG)
 
-### univariate analysis
+### Univariate analysis
 
 ![Image of aciduino on protoboard](https://github.com/dinaOuahbi/Exome-paad/blob/main/results/differential_analysis.PNG)
 
-### visualization 
+### Visualization 
 
 ![Image of aciduino on protoboard](https://github.com/dinaOuahbi/Exome-paad/blob/main/results/differential_analysis_visualization.PNG)

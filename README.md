@@ -11,12 +11,12 @@ Removal of single-modality variables: 'disease', 'subtype'.
 
 Checking for missing values: overlapping missing data, we can therefore separate our dataset into 3 subparts.
 
-![Image of aciduino on protoboard]()
+![Image of aciduino on protoboard](https://github.com/dinaOuahbi/Exome-paad/blob/main/results/exome_missing_data.PNG)
 
 ### univariate analysis
 
-![Image of aciduino on protoboard]()
+![Image of aciduino on protoboard](https://github.com/dinaOuahbi/Exome-paad/blob/main/results/differential_analysis.PNG)
 
 ### visualization 
 
-![Image of aciduino on protoboard]()
+![Image of aciduino on protoboard](https://github.com/dinaOuahbi/Exome-paad/blob/main/results/differential_analysis_visualization.PNG)

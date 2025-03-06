@@ -1,22 +1,23 @@
-# Exome-paad
-Differential comparison between good and bad prognosis in pancreatic cancer, according to the classification of a deep learning model
+# Exome-paad  
+**Differential comparison between good and bad prognosis in pancreatic cancer, according to the classification of a deep learning model.**  
 
-### Data preprocessing 
+## Data Preprocessing  
 
-Patients without exome data: model8(n=25).
+- Patients without exome data: **model8 (n=25)**.  
+- Intersection of exome data (**n=152**) with our patients: **model8 (n=141)**.  
+- Removal of single-modality variables: **'disease', 'subtype'**.  
+- Checking for missing values: overlapping missing data allow us to separate our dataset into **three subparts**.  
 
-Intersection of exome data (n=152) with our patients: model8(n=141).
+![Missing Data Overview](https://github.com/dinaOuahbi/Exome-paad/blob/main/results/exome_missing_data.PNG)  
 
-Removal of single-modality variables: 'disease', 'subtype'.
+## Univariate Analysis  
 
-Checking for missing values: overlapping missing data, we can therefore separate our dataset into 3 subparts.
+The univariate analysis aims to identify differentially expressed features between patients with good and bad prognosis.  
 
-![Image of aciduino on protoboard](https://github.com/dinaOuahbi/Exome-paad/blob/main/results/exome_missing_data.PNG)
+![Univariate Analysis Results](https://github.com/dinaOuahbi/Exome-paad/blob/main/results/differential_analysis.PNG)  
 
-### Univariate analysis
+## Visualization  
 
-![Image of aciduino on protoboard](https://github.com/dinaOuahbi/Exome-paad/blob/main/results/differential_analysis.PNG)
+A graphical representation of differentially expressed features between prognosis groups.  
 
-### Visualization 
-
-![Image of aciduino on protoboard](https://github.com/dinaOuahbi/Exome-paad/blob/main/results/differential_analysis_visualization.PNG)
+![Visualization](https://github.com/dinaOuahbi/Exome-paad/blob/main/results/differential_analysis_visualization.PNG)  
